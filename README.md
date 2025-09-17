@@ -18,9 +18,11 @@
 ## 📸 Screenshots
 1. Dark Mode
 
-
+<img width="484" height="536" alt="dark_mode" src="https://github.com/user-attachments/assets/532c8c48-a798-4191-8da1-ff108b88ef1c" />
 
 2. Light Mode
+
+<img width="484" height="536" alt="light_mode" src="https://github.com/user-attachments/assets/5b77e6fe-a006-48fd-8bb3-4c0349a065ca" />
 
 ---
 
@@ -29,7 +31,7 @@ A. Installing the pyclipboard.
     
 1. Clone the repository
 ```bash
-git clone {URL}
+git clone https://github.com/DevManoj96/PyClipBoard.git
 ```
 
 2. Install the requirements.
@@ -42,14 +44,19 @@ pip3 install -r requirements.txt
 python3 pyclipboard.py
 ```
 
-B. Appimage 
+B. From Appimage 
 
 1. Download appimage
 - Download appimage from the latest release
 
-2. Run the appimage
+2. Install the requirements
 ```bash
-APPIMAGE
+pip3 install -r requirements.txt
+```
+
+4. Run the appimage
+```bash
+PyClipBoard-x86_64.AppImage
 ```
 
 ---
